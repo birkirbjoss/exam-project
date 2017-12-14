@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Products</title>
+	<link rel="stylesheet" href="style.css"> </head>
+
+<body>
+	<main>
+		<nav class="productNav">
+			<a href="index.html"> <img id="logo" src="images/newlogo.png" alt="imagenotfound"> </a> <a href="index.html">Home </a> <a class="active" href="#">Products</a> <a href="about.html">About</a> </nav>
+		<section id="list">
+			<template id="productTemplate">
+				<article class="product">
+					<h1 class="name"></h1> <img src="" alt="">
+					<p class="excerpt"></p>
+					<p class="led"></p>
+					<p class="details"></p>
+					<p class="specs"></p>
+					<p class="features"></p>
+					<button><a href="mailto:hlynurdesign@gmail.com">Buy now </a></button>
+					<p class="extra_price"></p>
+					<button class="detailsButton">Details</button>
+				</article>
+			</template>
+		</section>
+		<div id="modal" class="hide">
+			<article class="modal-content">
+				<h1 class="modal-name">data-name</h1> <img class="modal-image" src="" alt="">
+				<h4 class="modal-specs">data-specs</h4>
+				<h4 class="modal-details">data-details</h4>
+				<h4 class="modal-features">data-features</h4>
+				<h4 class="modal-excerpt">data-excerpt</h4>
+				<h4 class="modal-extra_price">data-extra_price</h4>
+				<button><a href="mailto:hlynurdesign@gmail.com">Buy now
+			</a></button>
+				<h4 class="modal-close">Click here to close</h4> </article>
+		</div>
+		<script src="script.js"></script>
+		<footer>
+			<div>
+				<a href="shipping.html"> <img id="truck" src="images/icons/delivery.png" alt="notfound"></a>
+				<a target="_blank" href="https://www.facebook.com/landsframleidslahlyns/?ref=br_rs"> <img src="images/icons/fbicon.png" alt="notfound"></a>
+				<a target="_blank" href="https://www.instagram.com/hlynur_land_design/"> <img src="images/icons/insta.png" alt="notfound"></a>
+				<a target="_blank" href="https://www.youtube.com/channel/UC2xlfQrhtPNXxpzu6V2rWcw/videos"> <img src="images/icons/youtube.png" alt="notfound"></a>
+				<a href="mailto:hlynurdesign@gmail.com"> <img id="contact" src="images/icons/contact.png" alt="notfound"></a>
+			</div>
+		</footer>
+	</main>
+</body>
+
+</html>
